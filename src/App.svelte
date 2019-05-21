@@ -1,32 +1,38 @@
 <script>
-	// import { onMount } from 'svelte';
 	import ListFilm from './ListFilm.svelte';
 	export let filmStatic;
-
-	// simple router change detection
-	// async function hashchange() {
-	// 	const path = window.location.hash.slice(1);
-	// 	console.log('path: ', path)
-	// }
-
-	// onMount(hashchange);
 </script>
 
 <style>
-	header{
-		background-color: var(--theme);
-		padding: 1em;
-		margin-bottom: 1em;
+	.app{
+		margin: auto;
+    max-width: 800px;
 	}
-	h1 {
+	header{
+		display: flex;
+    flex-direction: row;
+    align-items: center;
+		justify-content: space-between;
+
+		background-color: var(--theme);
+		margin-bottom: 1em;
+    color: #fff;
+    font-weight: 700;
+    max-width: 800px;
+    padding: 10px;
+	}
+
+	a{
 		color: #fff;
 	}
+
 </style>
 
-<header>
-	<h1>👻 Ghibli Svelte</h1>
-</header>
+<div class="app">
+	<header>
+		<h1>👻 Ghibli Svelte</h1>
+		<a href="https://github.com/mazipan/ghibli-svelte">Github</a>
+	</header>
 
-<ListFilm {filmStatic}></ListFilm>
-
-<!-- <svelte:window on:hashchange={hashchange}/> -->
+	<ListFilm {filmStatic}></ListFilm>
+</div>

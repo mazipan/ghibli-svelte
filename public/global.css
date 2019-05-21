@@ -367,15 +367,7 @@ body {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
-a {
-	color: var(--theme);
-	text-decoration: none;
-}
-
-a:hover {
-	text-decoration: underline;
-}
-
-a:visited {
-	color: var(--theme);
+.footer{
+  margin: 3em auto 1em auto;
+  text-align: center;
 }

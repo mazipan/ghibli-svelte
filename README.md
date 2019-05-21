@@ -1,68 +1,36 @@
-*Psst — looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
+# Ghibli Svelte
+
+[![Svelte](https://img.shields.io/badge/BuiltWith-Svelte-ff3e00.svg)](https://reasonml.github.io/ghibli-svelte/) ![Dependencies](https://img.shields.io/david/mazipan/ghibli-svelte.svg)
+
+👻 Ghibli studio's film explorer built with [Svelte](https://svelte.dev)
+
+## Live Demo
+
+[https://ghibli-svelte.surge.sh/](https://ghibli-svelte.surge.sh/)
+
+## Screenshoot
+
+![](screenshoot.png)
+
+## Development
+
++ You can run the app locally with:
+
+```bash
+yarn dev
+```
+
++ Build for production with:
+
+```bash
+yarn build
+```
+
+## Credits
+
++ [Svelte](https://svelte.dev)
++ [Janaipakos](https://github.com/janaipakos) for awesome [Ghibli Studio API](https://ghibliapi.herokuapp.com/)
 
 ---
 
-# svelte app
-
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
-
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
-
-```bash
-npx degit sveltejs/template svelte-app
-cd svelte-app
-```
-
-*Note that you will need to have [Node.js](https://nodejs.org) installed.*
-
-
-## Get started
-
-Install the dependencies...
-
-```bash
-cd svelte-app
-npm install
-```
-
-...then start [Rollup](https://rollupjs.org):
-
-```bash
-npm run dev
-```
-
-Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
-
-
-## Deploying to the web
-
-### With [now](https://zeit.co/now)
-
-Install `now` if you haven't already:
-
-```bash
-npm install -g now
-```
-
-Then, from within your project folder:
-
-```bash
-now
-```
-
-As an alternative, use the [Now desktop client](https://zeit.co/download) and simply drag the unzipped project folder to the taskbar icon.
-
-### With [surge](https://surge.sh/)
-
-Install `surge` if you haven't already:
-
-```bash
-npm install -g surge
-```
-
-Then, from within your project folder:
-
-```bash
-npm run build
-surge public
-```
+Copyright © 2019 by Irfan Maulana
