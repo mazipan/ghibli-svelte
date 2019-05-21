@@ -60,6 +60,7 @@ typings/
 # next.js build output
 .next
 
+public/200.html
 public/bundle.js
 public/bundle.js.map
 public/bundle.css
