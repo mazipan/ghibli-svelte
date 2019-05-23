@@ -1,0 +1,28 @@
+language: node_js
+node_js: '8'
+branches:
+  only:
+  - master
+  - /^greenkeeper/.*$/
+  - /^feature/.*$/
+  - /^renovate/.*$/
+cache:
+  yarn: true
+  directories:
+    - node_modules
+install:
+  - yarn install
+script:
+  - yarn run build
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  local-dir: public
+  verbose: true
+  on:
+    branch: master
+
+after_success:
+  - yarn run lh -- --pwa=80 --perf=80 --seo=80 --a11y=80 --bp=80 https://www.quran-offline.xyz
