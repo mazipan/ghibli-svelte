@@ -1,6 +1,6 @@
 # Ghibli Svelte
 
-[![Svelte](https://img.shields.io/badge/BuiltWith-Svelte-ff3e00.svg)](https://reasonml.github.io/ghibli-svelte/) ![Dependencies](https://img.shields.io/david/mazipan/ghibli-svelte.svg)
+[![Svelte](https://img.shields.io/badge/BuiltWith-Svelte-ff3e00.svg)](https://reasonml.github.io/ghibli-svelte/) [![Travis](https://img.shields.io/travis/mazipan/ghibli-svelte.svg)](https://travis-ci.org/mazipan/ghibli-svelte) ![Dependencies](https://img.shields.io/david/mazipan/ghibli-svelte.svg)
 
 👻 Ghibli studio's film explorer built with [Svelte](https://svelte.dev)
 
