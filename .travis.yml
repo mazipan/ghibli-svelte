@@ -1,5 +1,5 @@
 language: node_js
-node_js: '8'
+node_js: '12'
 branches:
   only:
   - master
@@ -22,6 +22,3 @@ deploy:
   verbose: true
   on:
     branch: master
-
-after_success:
-  - yarn run lh -- --pwa=80 --perf=80 --seo=80 --a11y=80 --bp=80 https://ghibli-svelte.surge.sh/
